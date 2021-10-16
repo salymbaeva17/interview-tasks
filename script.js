@@ -95,33 +95,68 @@ console.log(fibonacci2(6))
 // console.log(zzz())
 
 
-function isEqual(object1, object2) {
-    const props1 = Object.getOwnPropertyNames(object1);
-    const props2 = Object.getOwnPropertyNames(object2);
+// function isEqual(object1, object2) {
+//     const props1 = Object.getOwnPropertyNames(object1);
+//     const props2 = Object.getOwnPropertyNames(object2);
+//
+//     if (props1.length !== props2.length) {
+//         return false;
+//     }
+//
+//     for (let i = 0; i < props1.length; i ++) {
+//         const prop = props1[i];
+//
+//         if (object1[prop] !== object2[prop]) {
+//             return false;
+//         }
+//     }
+//
+//     return true;
+// }
+//
+// const object1 = {
+//     title: "Title",
+//     id: 1
+// };
+//
+// const object2 = {
+//     id: 1,
+//     title: "Title",
+// };
+//
+// console.log(isEqual(object1, object2))
 
-    if (props1.length !== props2.length) {
-        return false;
-    }
 
-    for (let i = 0; i < props1.length; i ++) {
-        const prop = props1[i];
+// for(var i = 0; i < 10; i++){
+//     setTimeout(()=>{
+//         console.log(i)
+//     }, 10)
+// }
+//
+// 10
+// 10
+// 10
+// 10
+// 10
+// 10
+// 10
+// 10
+// 10
+// 10
 
-        if (object1[prop] !== object2[prop]) {
-            return false;
-        }
-    }
 
-    return true;
+for(var i =0; i<10; i++){
+    setTimeout(()=>{
+        console.log(i)
+    }, 10)
 }
-
-const object1 = {
-    title: "Title",
-    id: 1
-};
-
-const object2 = {
-    id: 1,
-    title: "Title",
-};
-
-console.log(isEqual(object1, object2))
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
