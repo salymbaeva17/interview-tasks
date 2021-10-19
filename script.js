@@ -23,12 +23,12 @@
 // console.log(fibonacci(9))
 
 
-const fibonacci2 = num => {
-    if (num < 2) return num
-    return fibonacci2(num - 1) + fibonacci2(num - 2)
-}
-
-console.log(fibonacci2(6))
+// const fibonacci2 = num => {
+//     if (num < 2) return num
+//     return fibonacci2(num - 1) + fibonacci2(num - 2)
+// }
+//
+// console.log(fibonacci2(6))
 
 
 // // как сравнить 2 объекта?
@@ -145,11 +145,11 @@ console.log(fibonacci2(6))
 // 10
 
 
-for(var i =0; i<10; i++){
-    setTimeout(()=>{
-        console.log(i)
-    }, 10)
-}
+// for(var i =0; i<10; i++){
+//     setTimeout(()=>{
+//         console.log(i)
+//     }, 10)
+// }
 // 0
 // 1
 // 2
@@ -160,3 +160,46 @@ for(var i =0; i<10; i++){
 // 7
 // 8
 // 9
+
+
+// for(let i =0; i<10; i++){
+//     setTimeout(()=>{
+//         console.log(i)
+//     }, 10)
+// }
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
+
+
+// const object = {
+//     value: "42",
+//     print(){
+//         function type() {
+//             return typeof this.value
+//         }
+//         console.log(`${this.value} is ${type()}`)
+//     }
+// }
+//
+// object.print() //42 is undefined
+
+// const object = {
+//     value: "42",
+//     print() {
+//         const type = () => {
+//             return typeof this.value
+//         }
+//         console.log(`${this.value} is ${type()}`)
+//     }
+// }
+// object.print() //42 is string
+
+
