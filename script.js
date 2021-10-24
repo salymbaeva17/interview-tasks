@@ -217,13 +217,18 @@
 //
 // console.log(twoHighest([9,9, 2,10,10]))
 
-function paperwork(n, m) {
-    if(m<0||n<0) return 0
-    else{
-        return n*m
-    }
-}
+// function paperwork(n, m) {
+//     if(m<0||n<0) return 0
+//     else{
+//         return n*m
+//     }
+// }
 
-function booleanToString(b){
-    return b ? "true" : "false"
+// function booleanToString(b){
+//     return b ? "true" : "false"
+// }
+
+
+function invert(array) {
+    return array.map(el => -el);
 }
