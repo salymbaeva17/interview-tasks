@@ -232,3 +232,7 @@
 function invert(array) {
     return array.map(el => -el);
 }
+
+const greet = () => {
+    return "hello world!"
+}
