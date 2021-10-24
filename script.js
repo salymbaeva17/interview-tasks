@@ -224,3 +224,6 @@ function paperwork(n, m) {
     }
 }
 
+function booleanToString(b){
+    return b ? "true" : "false"
+}
