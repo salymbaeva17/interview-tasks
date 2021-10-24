@@ -203,16 +203,24 @@
 // object.print() //42 is string
 
 
-function twoHighest(arr) {
-    if(arr.length === 0){
-        return []
-    }
-    else if(arr.length < 2){
-        return arr.sort((a,b) => b-a)
-    }
+// function twoHighest(arr) {
+//     if(arr.length === 0){
+//         return []
+//     }
+//     else if(arr.length < 2){
+//         return arr.sort((a,b) => b-a)
+//     }
+//     else{
+//         return arr.sort((a,b) => b-a).filter((el,idx) => arr.indexOf(el) === idx).slice(0,2)
+//     }
+// }
+//
+// console.log(twoHighest([9,9, 2,10,10]))
+
+function paperwork(n, m) {
+    if(m<0||n<0) return 0
     else{
-        return arr.sort((a,b) => b-a).filter((el,idx) => arr.indexOf(el) === idx).slice(0,2)
+        return n*m
     }
 }
 
-console.log(twoHighest([9,9, 2,10,10]))
