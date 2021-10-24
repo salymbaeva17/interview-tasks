@@ -203,3 +203,16 @@
 // object.print() //42 is string
 
 
+function twoHighest(arr) {
+    if(arr.length === 0){
+        return []
+    }
+    else if(arr.length < 2){
+        return arr.sort((a,b) => b-a)
+    }
+    else{
+        return arr.sort((a,b) => b-a).filter((el,idx) => arr.indexOf(el) === idx).slice(0,2)
+    }
+}
+
+console.log(twoHighest([9,9, 2,10,10]))
