@@ -236,3 +236,7 @@ function invert(array) {
 const greet = () => {
     return "hello world!"
 }
+
+function maps(x){
+    return x.map(el => el*2)
+}
