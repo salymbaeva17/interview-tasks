@@ -240,3 +240,7 @@ const greet = () => {
 function maps(x){
     return x.map(el => el*2)
 }
+
+function arrayPlusArray(arr1, arr2) {
+    return arr1.concat(arr2).reduce((acc, el) => acc+el, 0)
+}
