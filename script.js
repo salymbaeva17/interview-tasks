@@ -229,22 +229,62 @@
 // }
 
 
-function invert(array) {
-    return array.map(el => -el);
-}
+// function invert(array) {
+//     return array.map(el => -el);
+// }
+//
+// const greet = () => {
+//     return "hello world!"
+// }
 
-const greet = () => {
-    return "hello world!"
-}
+// function maps(x) {
+//     return x.map(el => el * 2)
+// }
+//
+// function arrayPlusArray(arr1, arr2) {
+//     return arr1.concat(arr2).reduce((acc, el) => acc + el, 0)
+// }
 
-function maps(x){
-    return x.map(el => el*2)
-}
+// function check(a, x) {
+//     return a.includes(x)
+// }
+//
+// function correct(string) {
+//     return string.replace(/0/g, "O").replace(/1/g, "I").replace(/5/g, "S")
+// }
+//
+// console.log(correct("L0ND0N"))
 
-function arrayPlusArray(arr1, arr2) {
-    return arr1.concat(arr2).reduce((acc, el) => acc+el, 0)
-}
+//
+// function expressionMatter(a, b, c) {
+//     let maxValue = Math.max(
+//         a+b+c,
+//         a*b*c,
+//         a*b+c,
+//         a*(b+c),
+//         a+b*c,
+//         (a+b)*c
+//     )
+//    return maxValue
+// }
+//
+// console.log(expressionMatter(2, 1, 2))
 
-function check(a, x) {
-    return a.includes(x)
-}
+// function helloWorld(){
+//     let str = "Hello World!"
+//     console.log(str)
+// }
+//
+// console.log(helloWorld())
+//
+//
+// function greet(name){
+//     if(name === "Johnny"){
+//         return "Hello, my love!";
+//     }
+//     else{
+//         return "Hello, " + name + "!";
+//     }
+// }
+//
+// console.log(greet("JOHNY"))
