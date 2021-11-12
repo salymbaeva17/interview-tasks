@@ -288,3 +288,11 @@
 // }
 //
 // console.log(greet("JOHNY"))
+
+
+// const symb = (str) => {
+//     return str.split().map((item, idx) => item.indexOf() === idx) ? true: false
+// }
+//
+// console.log(symb("rtyuiopRt"))
+
