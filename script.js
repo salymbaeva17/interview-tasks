@@ -296,8 +296,14 @@
 //
 // console.log(symb("rtyuiopRt"))
 
-function isDivideBy(number, a, b) {
-    return number % a === 0 && number % b === 0
+// function isDivideBy(number, a, b) {
+//     return number % a === 0 && number % b === 0
+// }
+//
+// console.log(isDivideBy(-12, 2, -5))
+
+function hoopCount (n) {
+    return n<10 ? "Keep at it until you get it" : "Great, now move on to tricks"
 }
 
-console.log(isDivideBy(-12, 2, -5))
+console.log(hoopCount(7))
