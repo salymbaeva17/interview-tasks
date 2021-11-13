@@ -302,8 +302,17 @@
 //
 // console.log(isDivideBy(-12, 2, -5))
 
-function hoopCount (n) {
-    return n<10 ? "Keep at it until you get it" : "Great, now move on to tricks"
+// function hoopCount (n) {
+//     return n<10 ? "Keep at it until you get it" : "Great, now move on to tricks"
+// }
+//
+// console.log(hoopCount(7))
+
+function find_average(array) {
+    if(array !== []){
+        return array.reduce((acc, item) => acc+item, 0)/array.length
+    }
+    return 0;
 }
 
-console.log(hoopCount(7))
+console.log(find_average([3,5,8,9,2]))
