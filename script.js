@@ -316,3 +316,8 @@ function find_average(array) {
 }
 
 console.log(find_average([3,5,8,9,2]))
+
+const square = (a) => {
+    return a**2
+}
+console.log(square(7))
