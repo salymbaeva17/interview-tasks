@@ -353,3 +353,11 @@ function popElement(arr){
 function animal(obj){
   return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
 }
+
+
+function trueOrFalse(val){
+  if (val==0 || val===NaN || val=== false|| val==="" || val===null || val===undefined || val===-0)    return "false"          
+  else{
+    return "true"
+    }
+}
