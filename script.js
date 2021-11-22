@@ -326,3 +326,26 @@ function peopleWithAgeDrink(old) {
   return old>=21? "drink whisky" : old>=18? "drink beer" : old>=14? "drink coke" : "drink toddy"
 };
 console.log(peopleWithAgeDrink(7))
+
+
+//array methods
+function getLength(arr){
+  let len = arr.length
+  return len
+}
+function getFirst(arr){
+  return arr[0]
+}
+function getLast(arr){
+  return arr[arr.length-1]
+}
+function pushElement(arr){
+  var el=1;
+  arr.push(el)
+  return arr
+}
+function popElement(arr){
+  arr.pop()
+  return arr
+}
+
