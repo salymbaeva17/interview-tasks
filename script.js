@@ -321,3 +321,8 @@ const square = (a) => {
     return a**2
 }
 console.log(square(7))
+
+function peopleWithAgeDrink(old) {
+  return old>=21? "drink whisky" : old>=18? "drink beer" : old>=14? "drink coke" : "drink toddy"
+};
+console.log(peopleWithAgeDrink(7))
